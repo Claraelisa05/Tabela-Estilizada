@@ -1,0 +1,42 @@
+table {
+
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+    }
+    
+    th, td {
+    
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    
+    }
+    th {
+        background-color: #f4f4f4;
+    }
+    
+    tr:nth-child(even){
+        background-color: #f9f9f9;
+    }
+    tr:hover { background-color: #f1f1f1;
+    }
+    .tecnico, .pi {
+        background-color: #a5d6a7; 
+    }
+    .portugues, .artes, .ingles {
+        background-color: #e1bee7; 
+    }
+    .matematica {
+        background-color: #ef5350; 
+    }
+    .pv {
+        background-color: #1e88e5; 
+    }
+    .biologia, .quimica, .fisica {
+        background-color: #90caf9; 
+    }
+    .sociologia, .historia, .geografia, .filosofia {
+        background-color: #ffb74d;
+    }
